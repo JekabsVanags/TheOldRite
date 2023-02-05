@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Kokle1_BGM_Taka.ogg-8f426407a9ecc628ef8fc84d2adf1ac5.oggstr"
+
+[deps]
+
+source_file="res://Visuals_demo/Finished/Takas_BGM_Final/Kokle1_BGM_Taka.ogg"
+dest_files=[ "res://.import/Kokle1_BGM_Taka.ogg-8f426407a9ecc628ef8fc84d2adf1ac5.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

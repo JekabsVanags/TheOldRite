@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/stone_hit.ogg-fa277c6c4c12eef2954b65a74b22e5d7.oggstr"
+
+[deps]
+
+source_file="res://Visuals_demo/Finished/Takas_BGM_Final/stone_hit.ogg"
+dest_files=[ "res://.import/stone_hit.ogg-fa277c6c4c12eef2954b65a74b22e5d7.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

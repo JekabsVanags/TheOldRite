@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Takas_Song.ogg-262f66c7033a96d52dd9596895c88121.oggstr"
+
+[deps]
+
+source_file="res://Visuals_demo/Finished/Takas_BGM_Final/Takas_Song.ogg"
+dest_files=[ "res://.import/Takas_Song.ogg-262f66c7033a96d52dd9596895c88121.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

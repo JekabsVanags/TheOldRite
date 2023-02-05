@@ -1,0 +1,1132 @@
+[gd_scene load_steps=283 format=2]
+
+[ext_resource path="res://Visuals_demo/Fonts/Greconian.otf" type="DynamicFontData" id=1]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0030.png" type="Texture" id=2]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0010.png" type="Texture" id=3]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0013.png" type="Texture" id=4]
+[ext_resource path="res://Prefabs/CenterBurningFire.gd" type="Script" id=5]
+[ext_resource path="res://Prefabs/Sector.gd" type="Script" id=6]
+[ext_resource path="res://Visuals_demo/Finished/2aplisred.png" type="Texture" id=7]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0018.png" type="Texture" id=8]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0026.png" type="Texture" id=9]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0042.png" type="Texture" id=10]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0029.png" type="Texture" id=11]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0039.png" type="Texture" id=12]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0035.png" type="Texture" id=13]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0045.png" type="Texture" id=14]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0027.png" type="Texture" id=15]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0036.png" type="Texture" id=16]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0023.png" type="Texture" id=17]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0004.png" type="Texture" id=18]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0037.png" type="Texture" id=19]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0030.png" type="Texture" id=20]
+[ext_resource path="res://Visuals_demo/Finished/1aplisred.png" type="Texture" id=21]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0033.png" type="Texture" id=22]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0003.png" type="Texture" id=23]
+[ext_resource path="res://Visuals_demo/Finished/5aplisred.png" type="Texture" id=24]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0034.png" type="Texture" id=25]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0002.png" type="Texture" id=26]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0050.png" type="Texture" id=27]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0028.png" type="Texture" id=28]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0015.png" type="Texture" id=29]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0048.png" type="Texture" id=30]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0047.png" type="Texture" id=31]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0008.png" type="Texture" id=32]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0017.png" type="Texture" id=33]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0009.png" type="Texture" id=34]
+[ext_resource path="res://Visuals_demo/Finished/4aplisred.png" type="Texture" id=35]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0032.png" type="Texture" id=36]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0018.png" type="Texture" id=37]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0046.png" type="Texture" id=38]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0023.png" type="Texture" id=39]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0012.png" type="Texture" id=40]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0005.png" type="Texture" id=41]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0033.png" type="Texture" id=42]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0022.png" type="Texture" id=43]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0044.png" type="Texture" id=44]
+[ext_resource path="res://Visuals_demo/Finished/3aplisred.png" type="Texture" id=45]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0016.png" type="Texture" id=46]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0025.png" type="Texture" id=47]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0043.png" type="Texture" id=48]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0049.png" type="Texture" id=49]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0020.png" type="Texture" id=50]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0017.png" type="Texture" id=51]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0040.png" type="Texture" id=52]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0039.png" type="Texture" id=53]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0024.png" type="Texture" id=54]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0029.png" type="Texture" id=55]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0013.png" type="Texture" id=56]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0025.png" type="Texture" id=57]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0008.png" type="Texture" id=58]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0002.png" type="Texture" id=59]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0028.png" type="Texture" id=60]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0016.png" type="Texture" id=61]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0036.png" type="Texture" id=62]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0006.png" type="Texture" id=63]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0038.png" type="Texture" id=64]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0001.png" type="Texture" id=65]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0019.png" type="Texture" id=66]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0032.png" type="Texture" id=67]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0011.png" type="Texture" id=68]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0024.png" type="Texture" id=69]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0007.png" type="Texture" id=70]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0031.png" type="Texture" id=71]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0007.png" type="Texture" id=72]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0022.png" type="Texture" id=73]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0020.png" type="Texture" id=74]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0006.png" type="Texture" id=75]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0003.png" type="Texture" id=76]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0009.png" type="Texture" id=77]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0041.png" type="Texture" id=78]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0021.png" type="Texture" id=79]
+[ext_resource path="res://Visuals_demo/Finished/1fire0001/1fire0014.png" type="Texture" id=80]
+[ext_resource path="res://Prefabs/1Circle.gd" type="Script" id=81]
+[ext_resource path="res://Prefabs/2Circle.gd" type="Script" id=82]
+[ext_resource path="res://Prefabs/3Circle.gd" type="Script" id=83]
+[ext_resource path="res://Prefabs/4Circle.gd" type="Script" id=84]
+[ext_resource path="res://Prefabs/Signs.gd" type="Script" id=85]
+[ext_resource path="res://Visuals_demo/Finished/usa4.png" type="Texture" id=86]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0014.png" type="Texture" id=87]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0002.png" type="Texture" id=88]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0023.png" type="Texture" id=89]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0026.png" type="Texture" id=90]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0041.png" type="Texture" id=91]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0050.png" type="Texture" id=92]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0001.png" type="Texture" id=93]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0028.png" type="Texture" id=94]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0017.png" type="Texture" id=95]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0040.png" type="Texture" id=96]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0027.png" type="Texture" id=97]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0027.png" type="Texture" id=98]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0007.png" type="Texture" id=99]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0048.png" type="Texture" id=100]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0011.png" type="Texture" id=101]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0004.png" type="Texture" id=102]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0005.png" type="Texture" id=103]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0013.png" type="Texture" id=104]
+[ext_resource path="res://Visuals_demo/Finished/dievs4.png" type="Texture" id=105]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0031.png" type="Texture" id=106]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0015.png" type="Texture" id=107]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0049.png" type="Texture" id=108]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0034.png" type="Texture" id=109]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0038.png" type="Texture" id=110]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0037.png" type="Texture" id=111]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0003.png" type="Texture" id=112]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0025.png" type="Texture" id=113]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0031.png" type="Texture" id=114]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0029.png" type="Texture" id=115]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0012.png" type="Texture" id=116]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0019.png" type="Texture" id=117]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0044.png" type="Texture" id=118]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0046.png" type="Texture" id=119]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0010.png" type="Texture" id=120]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0019.png" type="Texture" id=121]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0013.png" type="Texture" id=122]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0032.png" type="Texture" id=123]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0047.png" type="Texture" id=124]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0030.png" type="Texture" id=125]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0014.png" type="Texture" id=126]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0050.png" type="Texture" id=127]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0047.png" type="Texture" id=128]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0043.png" type="Texture" id=129]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0033.png" type="Texture" id=130]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0042.png" type="Texture" id=131]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0036.png" type="Texture" id=132]
+[ext_resource path="res://Visuals_demo/Finished/dievs3.png" type="Texture" id=133]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0037.png" type="Texture" id=134]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0010.png" type="Texture" id=135]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0011.png" type="Texture" id=136]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0026.png" type="Texture" id=137]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0001.png" type="Texture" id=138]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0020.png" type="Texture" id=139]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0031.png" type="Texture" id=140]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0021.png" type="Texture" id=141]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0005.png" type="Texture" id=142]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0035.png" type="Texture" id=143]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0020.png" type="Texture" id=144]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0049.png" type="Texture" id=145]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0039.png" type="Texture" id=146]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0021.png" type="Texture" id=147]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0046.png" type="Texture" id=148]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0048.png" type="Texture" id=149]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0045.png" type="Texture" id=150]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0043.png" type="Texture" id=151]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0024.png" type="Texture" id=152]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0001.png" type="Texture" id=153]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0006.png" type="Texture" id=154]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0003.png" type="Texture" id=155]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0031.png" type="Texture" id=156]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0040.png" type="Texture" id=157]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0006.png" type="Texture" id=158]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0024.png" type="Texture" id=159]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0002.png" type="Texture" id=160]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0009.png" type="Texture" id=161]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0026.png" type="Texture" id=162]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0020.png" type="Texture" id=163]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0032.png" type="Texture" id=164]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0035.png" type="Texture" id=165]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0008.png" type="Texture" id=166]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0015.png" type="Texture" id=167]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0049.png" type="Texture" id=168]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0050.png" type="Texture" id=169]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0046.png" type="Texture" id=170]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0017.png" type="Texture" id=171]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0004.png" type="Texture" id=172]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0042.png" type="Texture" id=173]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0032.png" type="Texture" id=174]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0037.png" type="Texture" id=175]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0022.png" type="Texture" id=176]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0022.png" type="Texture" id=177]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0012.png" type="Texture" id=178]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0009.png" type="Texture" id=179]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0024.png" type="Texture" id=180]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0009.png" type="Texture" id=181]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0012.png" type="Texture" id=182]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0019.png" type="Texture" id=183]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0039.png" type="Texture" id=184]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0016.png" type="Texture" id=185]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0046.png" type="Texture" id=186]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0043.png" type="Texture" id=187]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0006.png" type="Texture" id=188]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0047.png" type="Texture" id=189]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0008.png" type="Texture" id=190]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0015.png" type="Texture" id=191]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0027.png" type="Texture" id=192]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0005.png" type="Texture" id=193]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0005.png" type="Texture" id=194]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0035.png" type="Texture" id=195]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0038.png" type="Texture" id=196]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0018.png" type="Texture" id=197]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0036.png" type="Texture" id=198]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0042.png" type="Texture" id=199]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0027.png" type="Texture" id=200]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0026.png" type="Texture" id=201]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0044.png" type="Texture" id=202]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0045.png" type="Texture" id=203]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0029.png" type="Texture" id=204]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0034.png" type="Texture" id=205]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0025.png" type="Texture" id=206]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0038.png" type="Texture" id=207]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0022.png" type="Texture" id=208]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0048.png" type="Texture" id=209]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0012.png" type="Texture" id=210]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0047.png" type="Texture" id=211]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0004.png" type="Texture" id=212]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0025.png" type="Texture" id=213]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0016.png" type="Texture" id=214]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0011.png" type="Texture" id=215]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0010.png" type="Texture" id=216]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0033.png" type="Texture" id=217]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0028.png" type="Texture" id=218]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0018.png" type="Texture" id=219]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0019.png" type="Texture" id=220]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0041.png" type="Texture" id=221]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0045.png" type="Texture" id=222]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0002.png" type="Texture" id=223]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0001.png" type="Texture" id=224]
+[ext_resource path="res://Visuals_demo/Finished/1-2fire0001/1-2fire0041.png" type="Texture" id=225]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0049.png" type="Texture" id=226]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0021.png" type="Texture" id=227]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0016.png" type="Texture" id=228]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0044.png" type="Texture" id=229]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0040.png" type="Texture" id=230]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0010.png" type="Texture" id=231]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0041.png" type="Texture" id=232]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0015.png" type="Texture" id=233]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0035.png" type="Texture" id=234]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0023.png" type="Texture" id=235]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0048.png" type="Texture" id=236]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0011.png" type="Texture" id=237]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0013.png" type="Texture" id=238]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0017.png" type="Texture" id=239]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0023.png" type="Texture" id=240]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0014.png" type="Texture" id=241]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0050.png" type="Texture" id=242]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0034.png" type="Texture" id=243]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0007.png" type="Texture" id=244]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0004.png" type="Texture" id=245]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0030.png" type="Texture" id=246]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0018.png" type="Texture" id=247]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0008.png" type="Texture" id=248]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0036.png" type="Texture" id=249]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0003.png" type="Texture" id=250]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0039.png" type="Texture" id=251]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0038.png" type="Texture" id=252]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0030.png" type="Texture" id=253]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0037.png" type="Texture" id=254]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0034.png" type="Texture" id=255]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0029.png" type="Texture" id=256]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0040.png" type="Texture" id=257]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0007.png" type="Texture" id=258]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0043.png" type="Texture" id=259]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0028.png" type="Texture" id=260]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0033.png" type="Texture" id=261]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0014.png" type="Texture" id=262]
+[ext_resource path="res://Visuals_demo/Finished/2-3fire0001/2-3fire0021.png" type="Texture" id=263]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0045.png" type="Texture" id=264]
+[ext_resource path="res://Visuals_demo/Finished/2fire0001/2fire0044.png" type="Texture" id=265]
+[ext_resource path="res://Visuals_demo/Finished/3fire0001/3fire0042.png" type="Texture" id=266]
+[ext_resource path="res://Visuals_demo/Finished/usa3.png" type="Texture" id=267]
+[ext_resource path="res://Newborn/Animation/signs/saulel.png" type="Texture" id=268]
+[ext_resource path="res://Newborn/Animation/signs/saulea.png" type="Texture" id=269]
+[ext_resource path="res://Kinsmen/Signs/akal.png" type="Texture" id=270]
+[ext_resource path="res://Kinsmen/Signs/krustsa.png" type="Texture" id=271]
+[ext_resource path="res://Kinsmen/Signs/akaa.png" type="Texture" id=272]
+[ext_resource path="res://Kinsmen/Signs/krustsl.png" type="Texture" id=273]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 21 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 224 ), ExtResource( 160 ), ExtResource( 250 ), ExtResource( 245 ), ExtResource( 193 ), ExtResource( 154 ), ExtResource( 244 ), ExtResource( 248 ), ExtResource( 181 ), ExtResource( 216 ), ExtResource( 215 ), ExtResource( 178 ), ExtResource( 104 ), ExtResource( 241 ), ExtResource( 233 ), ExtResource( 228 ), ExtResource( 239 ), ExtResource( 247 ), ExtResource( 183 ), ExtResource( 139 ), ExtResource( 263 ), ExtResource( 177 ), ExtResource( 89 ), ExtResource( 159 ), ExtResource( 113 ), ExtResource( 162 ), ExtResource( 200 ), ExtResource( 94 ), ExtResource( 115 ), ExtResource( 125 ), ExtResource( 140 ), ExtResource( 174 ), ExtResource( 130 ), ExtResource( 205 ), ExtResource( 165 ), ExtResource( 132 ), ExtResource( 134 ), ExtResource( 207 ), ExtResource( 146 ), ExtResource( 257 ), ExtResource( 91 ), ExtResource( 131 ), ExtResource( 129 ), ExtResource( 118 ), ExtResource( 150 ), ExtResource( 148 ), ExtResource( 124 ), ExtResource( 100 ), ExtResource( 145 ), ExtResource( 92 ) ],
+"loop": false,
+"name": "growing2-3",
+"speed": 17.0
+}, {
+"frames": [ ExtResource( 93 ), ExtResource( 88 ), ExtResource( 112 ), ExtResource( 212 ), ExtResource( 103 ), ExtResource( 158 ), ExtResource( 99 ), ExtResource( 166 ), ExtResource( 161 ), ExtResource( 135 ), ExtResource( 136 ), ExtResource( 182 ), ExtResource( 122 ), ExtResource( 126 ), ExtResource( 191 ), ExtResource( 214 ), ExtResource( 95 ), ExtResource( 197 ), ExtResource( 121 ), ExtResource( 144 ), ExtResource( 147 ), ExtResource( 176 ), ExtResource( 235 ), ExtResource( 180 ), ExtResource( 206 ), ExtResource( 90 ), ExtResource( 98 ), ExtResource( 260 ), ExtResource( 256 ), ExtResource( 253 ), ExtResource( 114 ), ExtResource( 123 ), ExtResource( 261 ), ExtResource( 255 ), ExtResource( 234 ), ExtResource( 249 ), ExtResource( 254 ), ExtResource( 252 ), ExtResource( 251 ), ExtResource( 230 ), ExtResource( 232 ), ExtResource( 266 ), ExtResource( 259 ), ExtResource( 229 ), ExtResource( 264 ), ExtResource( 119 ), ExtResource( 128 ), ExtResource( 149 ), ExtResource( 108 ), ExtResource( 127 ) ],
+"loop": true,
+"name": "3",
+"speed": 17.0
+}, {
+"frames": [ ExtResource( 153 ), ExtResource( 223 ), ExtResource( 155 ), ExtResource( 172 ), ExtResource( 194 ), ExtResource( 188 ), ExtResource( 258 ), ExtResource( 190 ), ExtResource( 179 ), ExtResource( 231 ), ExtResource( 237 ), ExtResource( 210 ), ExtResource( 238 ), ExtResource( 262 ), ExtResource( 167 ), ExtResource( 185 ), ExtResource( 171 ), ExtResource( 219 ), ExtResource( 220 ), ExtResource( 163 ), ExtResource( 227 ), ExtResource( 208 ), ExtResource( 240 ), ExtResource( 152 ), ExtResource( 213 ), ExtResource( 201 ), ExtResource( 192 ), ExtResource( 218 ), ExtResource( 204 ), ExtResource( 246 ), ExtResource( 156 ), ExtResource( 164 ), ExtResource( 217 ), ExtResource( 243 ), ExtResource( 195 ), ExtResource( 198 ), ExtResource( 175 ), ExtResource( 196 ), ExtResource( 184 ), ExtResource( 157 ), ExtResource( 221 ), ExtResource( 199 ), ExtResource( 151 ), ExtResource( 265 ), ExtResource( 203 ), ExtResource( 186 ), ExtResource( 189 ), ExtResource( 236 ), ExtResource( 226 ), ExtResource( 242 ) ],
+"loop": true,
+"name": "2",
+"speed": 17.0
+}, {
+"frames": [ ExtResource( 65 ), ExtResource( 59 ), ExtResource( 23 ), ExtResource( 18 ), ExtResource( 41 ), ExtResource( 63 ), ExtResource( 70 ), ExtResource( 32 ), ExtResource( 34 ), ExtResource( 3 ), ExtResource( 68 ), ExtResource( 40 ), ExtResource( 4 ), ExtResource( 80 ), ExtResource( 29 ), ExtResource( 46 ), ExtResource( 51 ), ExtResource( 37 ), ExtResource( 66 ), ExtResource( 50 ), ExtResource( 79 ), ExtResource( 43 ), ExtResource( 17 ), ExtResource( 69 ), ExtResource( 47 ), ExtResource( 9 ), ExtResource( 15 ), ExtResource( 28 ), ExtResource( 11 ), ExtResource( 2 ), ExtResource( 71 ), ExtResource( 36 ), ExtResource( 22 ), ExtResource( 25 ), ExtResource( 13 ), ExtResource( 16 ), ExtResource( 19 ), ExtResource( 64 ), ExtResource( 12 ), ExtResource( 52 ), ExtResource( 78 ), ExtResource( 10 ), ExtResource( 48 ), ExtResource( 44 ), ExtResource( 14 ), ExtResource( 38 ), ExtResource( 31 ), ExtResource( 30 ), ExtResource( 49 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "1",
+"speed": 17.0
+}, {
+"frames": [ ExtResource( 138 ), ExtResource( 26 ), ExtResource( 76 ), ExtResource( 102 ), ExtResource( 142 ), ExtResource( 75 ), ExtResource( 72 ), ExtResource( 58 ), ExtResource( 77 ), ExtResource( 120 ), ExtResource( 101 ), ExtResource( 116 ), ExtResource( 56 ), ExtResource( 87 ), ExtResource( 107 ), ExtResource( 61 ), ExtResource( 33 ), ExtResource( 8 ), ExtResource( 117 ), ExtResource( 74 ), ExtResource( 141 ), ExtResource( 73 ), ExtResource( 39 ), ExtResource( 54 ), ExtResource( 57 ), ExtResource( 137 ), ExtResource( 97 ), ExtResource( 60 ), ExtResource( 55 ), ExtResource( 20 ), ExtResource( 106 ), ExtResource( 67 ), ExtResource( 42 ), ExtResource( 109 ), ExtResource( 143 ), ExtResource( 62 ), ExtResource( 111 ), ExtResource( 110 ), ExtResource( 53 ), ExtResource( 96 ), ExtResource( 225 ), ExtResource( 173 ), ExtResource( 187 ), ExtResource( 202 ), ExtResource( 222 ), ExtResource( 170 ), ExtResource( 211 ), ExtResource( 209 ), ExtResource( 168 ), ExtResource( 169 ) ],
+"loop": false,
+"name": "growing1-2",
+"speed": 17.0
+} ]
+
+[sub_resource type="DynamicFont" id=3]
+size = 30
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ ExtResource( 7 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 102.464, 127.704 )
+
+[sub_resource type="SpriteFrames" id=6]
+animations = [ {
+"frames": [  ],
+"loop": true,
+"name": "empty",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 272 ) ],
+"loop": true,
+"name": "akaaugsa",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 271 ) ],
+"loop": true,
+"name": "krustsaugsa",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 273 ) ],
+"loop": true,
+"name": "krustsapaksa",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 270 ) ],
+"loop": true,
+"name": "akaapaksa",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 105 ) ],
+"loop": true,
+"name": "dievsapaksa",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 269 ) ],
+"loop": true,
+"name": "cetrassaulesaugsa",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 268 ) ],
+"loop": true,
+"name": "cetrassaulesapaksa",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 86 ) ],
+"loop": true,
+"name": "usinsapaksa",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 267 ) ],
+"loop": true,
+"name": "usinsaugsa",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 133 ) ],
+"loop": true,
+"name": "dievsaugsa",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=7]
+animations = [ {
+"frames": [ ExtResource( 45 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=8]
+animations = [ {
+"frames": [ ExtResource( 35 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=9]
+animations = [ {
+"frames": [ ExtResource( 24 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="RotatingCircles" type="Node2D"]
+position = Vector2( 384.31, 386.019 )
+scale = Vector2( 0.45, 0.45 )
+z_index = -1
+
+[node name="FlameCircle" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+
+[node name="Node2D" type="Node2D" parent="FlameCircle"]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="FlameCircle/Node2D"]
+light_mask = 0
+scale = Vector2( 2, 2 )
+frames = SubResource( 2 )
+animation = "1"
+frame = 11
+playing = true
+script = ExtResource( 5 )
+
+[node name="Label" type="Label" parent="FlameCircle/Node2D/AnimatedSprite"]
+margin_left = -95.4784
+margin_top = -4.54526
+margin_right = 103.522
+margin_bottom = 25.4547
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "PRESS SPACE"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BackGroundXXA" type="AnimatedSprite" parent="."]
+position = Vector2( 0, -9.09052 )
+rotation = -0.0160944
+scale = Vector2( 4.82534, 4.91434 )
+z_index = -1
+frames = SubResource( 1 )
+
+[node name="1Circle" type="AnimatedSprite" parent="."]
+z_index = -1
+frames = SubResource( 4 )
+script = ExtResource( 81 )
+
+[node name="Sector1-1" type="Area2D" parent="1Circle"]
+rotation = -2.06674
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="1Circle/Sector1-1"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="1Circle/Sector1-1"]
+position = Vector2( 154.23, 180.766 )
+rotation = 2.40005
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector1-2" type="Area2D" parent="1Circle"]
+rotation = -1.3875
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="1Circle/Sector1-2"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="1Circle/Sector1-2"]
+position = Vector2( 157.28, 185.526 )
+rotation = 2.36434
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector1-3" type="Area2D" parent="1Circle"]
+rotation = -0.70728
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="1Circle/Sector1-3"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="1Circle/Sector1-3"]
+position = Vector2( 155.047, 190.713 )
+rotation = 2.4201
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector1-4" type="Area2D" parent="1Circle"]
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="1Circle/Sector1-4"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="1Circle/Sector1-4"]
+position = Vector2( 161.281, 187.663 )
+rotation = 2.42532
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector1-5" type="Area2D" parent="1Circle"]
+rotation = 0.71982
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="1Circle/Sector1-5"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="1Circle/Sector1-5"]
+position = Vector2( 161.75, 184.309 )
+rotation = 2.40371
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector1-6" type="Area2D" parent="1Circle"]
+rotation = 1.4184
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="1Circle/Sector1-6"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="1Circle/Sector1-6"]
+position = Vector2( 156.291, 186.095 )
+rotation = 2.41934
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector1-7" type="Area2D" parent="1Circle"]
+rotation = 2.1167
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="1Circle/Sector1-7"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="1Circle/Sector1-7"]
+position = Vector2( 156.922, 184.881 )
+rotation = 2.38661
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector1-8" type="Area2D" parent="1Circle"]
+rotation = 2.80334
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="1Circle/Sector1-8"]
+position = Vector2( 156.781, 188.178 )
+rotation = 2.37049
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="1Circle/Sector1-8"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector1-9" type="Area2D" parent="1Circle"]
+rotation = -2.81666
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="1Circle/Sector1-9"]
+position = Vector2( 159.816, 187.471 )
+rotation = 2.4007
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="1Circle/Sector1-9"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="2Circle" type="AnimatedSprite" parent="."]
+z_index = -1
+frames = SubResource( 7 )
+script = ExtResource( 82 )
+
+[node name="Sector2-1" type="Area2D" parent="2Circle"]
+position = Vector2( 53.9292, -154.873 )
+rotation = -2.06674
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="2Circle/Sector2-1"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="2Circle/Sector2-1"]
+position = Vector2( 161.225, 189.963 )
+rotation = 2.41309
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector2-2" type="Area2D" parent="2Circle"]
+position = Vector2( 136.897, -84.3507 )
+rotation = -1.3875
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="2Circle/Sector2-2"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="2Circle/Sector2-2"]
+position = Vector2( 164.666, 189.146 )
+rotation = 2.40359
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector2-3" type="Area2D" parent="2Circle"]
+position = Vector2( 160.405, 19.3591 )
+rotation = -0.70728
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="2Circle/Sector2-3"]
+position = Vector2( 157.911, 193.38 )
+rotation = 2.38041
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="2Circle/Sector2-3"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector2-4" type="Area2D" parent="2Circle"]
+position = Vector2( 105.093, 117.538 )
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="2Circle/Sector2-4"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="2Circle/Sector2-4"]
+position = Vector2( 168.763, 193.13 )
+rotation = 2.39263
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector2-5" type="Area2D" parent="2Circle"]
+position = Vector2( 5.53119, 154.874 )
+rotation = 0.71982
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="2Circle/Sector2-5"]
+position = Vector2( 168.465, 194.975 )
+rotation = 2.40612
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="2Circle/Sector2-5"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector2-6" type="Area2D" parent="2Circle"]
+position = Vector2( -94.0303, 116.155 )
+rotation = 1.4184
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="2Circle/Sector2-6"]
+position = Vector2( 171.187, 202.669 )
+rotation = 2.39691
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="2Circle/Sector2-6"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector2-7" type="Area2D" parent="2Circle"]
+position = Vector2( -147.959, 31.8044 )
+rotation = 2.1167
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="2Circle/Sector2-7"]
+position = Vector2( 170.44, 200.592 )
+rotation = 2.38644
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="2Circle/Sector2-7"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector2-8" type="Area2D" parent="2Circle"]
+position = Vector2( -134.132, -70.5227 )
+rotation = 2.80334
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="2Circle/Sector2-8"]
+position = Vector2( 167.091, 198.631 )
+rotation = 2.40594
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="2Circle/Sector2-8"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector2-9" type="Area2D" parent="2Circle"]
+position = Vector2( -63.6086, -141.045 )
+rotation = -2.81665
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="2Circle/Sector2-9"]
+position = Vector2( 167.508, 199.021 )
+rotation = -3.87982
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="2Circle/Sector2-9"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="3Circle" type="AnimatedSprite" parent="."]
+z_index = -1
+frames = SubResource( 8 )
+script = ExtResource( 83 )
+
+[node name="Sector3-1" type="Area2D" parent="3Circle"]
+position = Vector2( 108.152, -312.23 )
+rotation = -2.06674
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="3Circle/Sector3-1"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="3Circle/Sector3-1"]
+position = Vector2( 161.225, 189.963 )
+rotation = 2.41309
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector3-2" type="Area2D" parent="3Circle"]
+position = Vector2( 284.165, -178.381 )
+rotation = -1.3875
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="3Circle/Sector3-2"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="3Circle/Sector3-2"]
+position = Vector2( 164.666, 189.146 )
+rotation = 2.40359
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector3-3" type="Area2D" parent="3Circle"]
+position = Vector2( 332.564, 39.4097 )
+rotation = -0.70728
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="3Circle/Sector3-3"]
+position = Vector2( 157.911, 193.38 )
+rotation = 2.38041
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="3Circle/Sector3-3"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector3-4" type="Area2D" parent="3Circle"]
+position = Vector2( 219.174, 238.533 )
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="3Circle/Sector3-4"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="3Circle/Sector3-4"]
+position = Vector2( 168.763, 193.13 )
+rotation = 2.39263
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector3-5" type="Area2D" parent="3Circle"]
+position = Vector2( 9.92621, 327.015 )
+rotation = 0.71982
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="3Circle/Sector3-5"]
+position = Vector2( 168.465, 194.975 )
+rotation = 2.40612
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="3Circle/Sector3-5"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector3-6" type="Area2D" parent="3Circle"]
+position = Vector2( -195.117, 244.345 )
+rotation = 1.4184
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="3Circle/Sector3-6"]
+position = Vector2( 171.187, 202.669 )
+rotation = 2.39691
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="3Circle/Sector3-6"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector3-7" type="Area2D" parent="3Circle"]
+position = Vector2( -308.379, 63.3025 )
+rotation = 2.1167
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="3Circle/Sector3-7"]
+position = Vector2( 170.44, 200.592 )
+rotation = 2.38644
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="3Circle/Sector3-7"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector3-8" type="Area2D" parent="3Circle"]
+position = Vector2( -285.762, -151.099 )
+rotation = 2.80334
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="3Circle/Sector3-8"]
+position = Vector2( 167.091, 198.631 )
+rotation = 2.40594
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="3Circle/Sector3-8"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector3-9" type="Area2D" parent="3Circle"]
+position = Vector2( -130.267, -291.943 )
+rotation = -2.81665
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="3Circle/Sector3-9"]
+position = Vector2( 167.508, 199.021 )
+rotation = -3.87982
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="3Circle/Sector3-9"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="4Circle" type="AnimatedSprite" parent="."]
+position = Vector2( -2.6226e-06, -2.14577e-06 )
+z_index = -1
+frames = SubResource( 9 )
+script = ExtResource( 84 )
+
+[node name="Sector4-1" type="Area2D" parent="4Circle"]
+position = Vector2( 162.121, -470.583 )
+rotation = -2.06674
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="4Circle/Sector4-1"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="4Circle/Sector4-1"]
+position = Vector2( 161.225, 189.963 )
+rotation = 2.41309
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector4-2" type="Area2D" parent="4Circle"]
+position = Vector2( 415.78, -264.948 )
+rotation = -1.3875
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="4Circle/Sector4-2"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="4Circle/Sector4-2"]
+position = Vector2( 164.666, 189.146 )
+rotation = 2.40359
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector4-3" type="Area2D" parent="4Circle"]
+position = Vector2( 488.849, 60.1859 )
+rotation = -0.70728
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="4Circle/Sector4-3"]
+position = Vector2( 157.911, 193.38 )
+rotation = 2.38041
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="4Circle/Sector4-3"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector4-4" type="Area2D" parent="4Circle"]
+position = Vector2( 327.379, 361.658 )
+script = ExtResource( 6 )
+
+[node name="1Circle" type="CollisionShape2D" parent="4Circle/Sector4-4"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Signs" type="AnimatedSprite" parent="4Circle/Sector4-4"]
+position = Vector2( 168.763, 193.13 )
+rotation = 2.39263
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="Sector4-5" type="Area2D" parent="4Circle"]
+position = Vector2( 13.4799, 487.349 )
+rotation = 0.71982
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="4Circle/Sector4-5"]
+position = Vector2( 168.465, 194.975 )
+rotation = 2.40612
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="4Circle/Sector4-5"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector4-6" type="Area2D" parent="4Circle"]
+position = Vector2( -300.866, 374.447 )
+rotation = 1.4184
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="4Circle/Sector4-6"]
+position = Vector2( 171.187, 202.669 )
+rotation = 2.39691
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="4Circle/Sector4-6"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector4-7" type="Area2D" parent="4Circle"]
+position = Vector2( -469.942, 98.0559 )
+rotation = 2.1167
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="4Circle/Sector4-7"]
+position = Vector2( 170.44, 200.592 )
+rotation = 2.38644
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="4Circle/Sector4-7"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector4-8" type="Area2D" parent="4Circle"]
+position = Vector2( -431.046, -225.648 )
+rotation = 2.80334
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="4Circle/Sector4-8"]
+position = Vector2( 167.091, 198.631 )
+rotation = 2.40594
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="4Circle/Sector4-8"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+
+[node name="Sector4-9" type="Area2D" parent="4Circle"]
+position = Vector2( -191.83, -438.585 )
+rotation = -2.81665
+script = ExtResource( 6 )
+
+[node name="Signs" type="AnimatedSprite" parent="4Circle/Sector4-9"]
+position = Vector2( 167.508, 199.021 )
+rotation = -3.87982
+scale = Vector2( 1, 0.951431 )
+frames = SubResource( 6 )
+animation = "empty"
+script = ExtResource( 85 )
+
+[node name="1Circle" type="CollisionShape2D" parent="4Circle/Sector4-9"]
+position = Vector2( 178.931, 209.321 )
+rotation = -0.745871
+shape = SubResource( 5 )
+[connection signal="animation_finished" from="FlameCircle/Node2D/AnimatedSprite" to="FlameCircle/Node2D/AnimatedSprite" method="_on_AnimatedSprite_animation_finished"]
+[connection signal="area_entered" from="2Circle/Sector2-1" to="2Circle" method="_on_Sector21_area_entered"]
+[connection signal="area_exited" from="2Circle/Sector2-1" to="2Circle" method="_on_Sector21_area_exited"]
+[connection signal="area_entered" from="2Circle/Sector2-2" to="2Circle" method="_on_Sector22_area_entered"]
+[connection signal="area_exited" from="2Circle/Sector2-2" to="2Circle" method="_on_Sector22_area_exited"]
+[connection signal="area_entered" from="2Circle/Sector2-3" to="2Circle" method="_on_Sector23_area_entered"]
+[connection signal="area_exited" from="2Circle/Sector2-3" to="2Circle" method="_on_Sector23_area_exited"]
+[connection signal="area_entered" from="2Circle/Sector2-4" to="2Circle" method="_on_Sector24_area_entered"]
+[connection signal="area_exited" from="2Circle/Sector2-4" to="2Circle" method="_on_Sector24_area_exited"]
+[connection signal="area_entered" from="2Circle/Sector2-5" to="2Circle" method="_on_Sector25_area_entered"]
+[connection signal="area_exited" from="2Circle/Sector2-5" to="2Circle" method="_on_Sector25_area_exited"]
+[connection signal="area_entered" from="2Circle/Sector2-6" to="2Circle" method="_on_Sector26_area_entered"]
+[connection signal="area_exited" from="2Circle/Sector2-6" to="2Circle" method="_on_Sector26_area_exited"]
+[connection signal="area_entered" from="2Circle/Sector2-7" to="2Circle" method="_on_Sector27_area_entered"]
+[connection signal="area_exited" from="2Circle/Sector2-7" to="2Circle" method="_on_Sector27_area_exited"]
+[connection signal="area_entered" from="2Circle/Sector2-8" to="2Circle" method="_on_Sector28_area_entered"]
+[connection signal="area_exited" from="2Circle/Sector2-8" to="2Circle" method="_on_Sector28_area_exited"]
+[connection signal="area_entered" from="2Circle/Sector2-9" to="2Circle" method="_on_Sector29_area_entered"]
+[connection signal="area_exited" from="2Circle/Sector2-9" to="2Circle" method="_on_Sector29_area_exited"]
+[connection signal="area_entered" from="4Circle/Sector4-1" to="4Circle" method="_on_Sector41_area_entered"]
+[connection signal="area_exited" from="4Circle/Sector4-1" to="4Circle" method="_on_Sector41_area_exited"]
+[connection signal="area_entered" from="4Circle/Sector4-2" to="4Circle" method="_on_Sector42_area_entered"]
+[connection signal="area_exited" from="4Circle/Sector4-2" to="4Circle" method="_on_Sector42_area_exited"]
+[connection signal="area_entered" from="4Circle/Sector4-3" to="4Circle" method="_on_Sector43_area_entered"]
+[connection signal="area_exited" from="4Circle/Sector4-3" to="4Circle" method="_on_Sector43_area_exited"]
+[connection signal="area_entered" from="4Circle/Sector4-4" to="4Circle" method="_on_Sector44_area_entered"]
+[connection signal="area_exited" from="4Circle/Sector4-4" to="4Circle" method="_on_Sector44_area_exited"]
+[connection signal="area_entered" from="4Circle/Sector4-5" to="4Circle" method="_on_Sector45_area_entered"]
+[connection signal="area_exited" from="4Circle/Sector4-5" to="4Circle" method="_on_Sector45_area_exited"]
+[connection signal="area_entered" from="4Circle/Sector4-6" to="4Circle" method="_on_Sector46_area_entered"]
+[connection signal="area_exited" from="4Circle/Sector4-6" to="4Circle" method="_on_Sector46_area_exited"]
+[connection signal="area_entered" from="4Circle/Sector4-7" to="4Circle" method="_on_Sector47_area_entered"]
+[connection signal="area_exited" from="4Circle/Sector4-7" to="4Circle" method="_on_Sector47_area_exited"]
+[connection signal="area_entered" from="4Circle/Sector4-8" to="4Circle" method="_on_Sector48_area_entered"]
+[connection signal="area_exited" from="4Circle/Sector4-8" to="4Circle" method="_on_Sector48_area_exited"]
+[connection signal="area_entered" from="4Circle/Sector4-9" to="4Circle" method="_on_Sector49_area_entered"]
+[connection signal="area_exited" from="4Circle/Sector4-9" to="4Circle" method="_on_Sector49_area_exited"]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Bungas2_BGM_Taka.ogg-3be552680c8dff1f0be24034e3e65244.oggstr"
+
+[deps]
+
+source_file="res://Visuals_demo/Finished/Takas_BGM_Final/Bungas2_BGM_Taka.ogg"
+dest_files=[ "res://.import/Bungas2_BGM_Taka.ogg-3be552680c8dff1f0be24034e3e65244.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

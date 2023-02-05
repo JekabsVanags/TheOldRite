@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://SFX.gd" type="Script" id=1]
+[ext_resource path="res://Visuals_demo/Finished/Takas_BGM_Final/stone_hit.ogg" type="AudioStream" id=2]
+
+[node name="SFX" type="Node"]
+script = ExtResource( 1 )
+
+[node name="Stone" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 2 )

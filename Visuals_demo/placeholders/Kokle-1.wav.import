@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Kokle-1.wav-790caa734bc8d8035f378b554883bba7.sample"
+
+[deps]
+
+source_file="res://Visuals_demo/placeholders/Kokle-1.wav"
+dest_files=[ "res://.import/Kokle-1.wav-790caa734bc8d8035f378b554883bba7.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

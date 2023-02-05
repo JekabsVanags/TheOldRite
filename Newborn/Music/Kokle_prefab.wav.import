@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Kokle_prefab.wav-57df7729308cd10c02b6d886af702df9.sample"
+
+[deps]
+
+source_file="res://Newborn/Music/Kokle_prefab.wav"
+dest_files=[ "res://.import/Kokle_prefab.wav-57df7729308cd10c02b6d886af702df9.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

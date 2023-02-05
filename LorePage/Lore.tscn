@@ -1,0 +1,464 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://Visuals_demo/Fonts/Greconian.otf" type="DynamicFontData" id=1]
+[ext_resource path="res://LorePage/Lore.gd" type="Script" id=2]
+[ext_resource path="res://Visuals_demo/Finished/lore_menu.jpg" type="Texture" id=3]
+[ext_resource path="res://Visuals_demo/Finished/Dievs_apraksts.jpg.png" type="Texture" id=4]
+[ext_resource path="res://Visuals_demo/Finished/Takas_BGM_Final/Lietus_BGM_Taka.ogg" type="AudioStream" id=5]
+[ext_resource path="res://Visuals_demo/Finished/ozols.png" type="Texture" id=6]
+[ext_resource path="res://Visuals_demo/Finished/rullis1.png" type="Texture" id=7]
+[ext_resource path="res://Visuals_demo/Finished/creators.jpg.png" type="Texture" id=8]
+[ext_resource path="res://Visuals_demo/Finished/jodaapraksts.png" type="Texture" id=9]
+[ext_resource path="res://Visuals_demo/Finished/laimasapraksts.png" type="Texture" id=10]
+
+[sub_resource type="DynamicFont" id=1]
+size = 70
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 35
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="OpenSimplexNoise" id=3]
+seed = 4
+period = 42.0
+persistence = 1.0
+lacunarity = 3.26
+
+[sub_resource type="NoiseTexture" id=4]
+seamless = true
+noise = SubResource( 3 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 35
+font_data = ExtResource( 1 )
+
+[sub_resource type="Gradient" id=6]
+colors = PoolColorArray( 0, 0.0901961, 0.152941, 1, 0, 0.0901961, 0.152941, 1 )
+
+[sub_resource type="GradientTexture" id=7]
+gradient = SubResource( 6 )
+
+[sub_resource type="OpenSimplexNoise" id=8]
+seed = 16
+period = 69.5
+persistence = 0.0
+lacunarity = 1.03
+
+[sub_resource type="NoiseTexture" id=9]
+height = 514
+seamless = true
+bump_strength = 14.7
+noise = SubResource( 8 )
+
+[sub_resource type="Animation" id=10]
+resource_name = "ToTree"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Camera2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -0.000244141, -6.61676 ), Vector2( -9307.9, -5033.98 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Camera2D:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Camera2D:zoom")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 9, 9 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Transition:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Background:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Buttons:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.666667 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[node name="Lore" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( -0.000244141, -6.61676 )
+anchor_mode = 0
+current = true
+
+[node name="Background" type="Sprite" parent="."]
+light_mask = 0
+position = Vector2( 679.883, 385.949 )
+scale = Vector2( 0.405786, 0.405786 )
+texture = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="Background"]
+margin_left = -1100.36
+margin_top = -825.988
+margin_right = 1012.64
+margin_bottom = -536.988
+custom_fonts/font = SubResource( 1 )
+text = "The lost knowledge of the old days of Baltic 
+coast, kept alive but in songs about times gone by. 
+Play the songs, and find the lore thats 
+hidden in them.
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Buttons" type="Node2D" parent="."]
+light_mask = 0
+position = Vector2( 666.322, 392.878 )
+
+[node name="Dievs" type="Button" parent="Buttons"]
+light_mask = 524288
+margin_left = -389.327
+margin_right = -240.327
+margin_bottom = 54.0
+rect_rotation = -15.0
+rect_pivot_offset = Vector2( -581.193, -58.232 )
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+text = "Dievs"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Light2D" type="Light2D" parent="Buttons/Dievs"]
+position = Vector2( 71.4434, 24.4797 )
+scale = Vector2( 0.34507, 0.128614 )
+texture = SubResource( 4 )
+color = Color( 0.678431, 0.858824, 1, 1 )
+mode = 2
+range_item_cull_mask = 524288
+
+[node name="Laima" type="Button" parent="Buttons"]
+light_mask = 524288
+margin_left = 297.639
+margin_top = -181.159
+margin_right = 470.639
+margin_bottom = -127.159
+rect_rotation = 15.0
+rect_pivot_offset = Vector2( -581.193, -58.232 )
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+text = "Laima"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Light2D" type="Light2D" parent="Buttons/Laima"]
+position = Vector2( 87.2024, 20.1306 )
+scale = Vector2( 0.34507, 0.128614 )
+texture = SubResource( 4 )
+color = Color( 0.678431, 0.858824, 1, 1 )
+mode = 2
+range_item_cull_mask = 524288
+
+[node name="Jods" type="Button" parent="Buttons"]
+light_mask = 524288
+margin_left = 148.059
+margin_top = -67.9354
+margin_right = 321.059
+margin_bottom = -13.9354
+rect_rotation = -9.00047
+rect_pivot_offset = Vector2( -581.193, -58.232 )
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+text = "Jods"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Light2D" type="Light2D" parent="Buttons/Jods"]
+position = Vector2( 71.4434, 24.4797 )
+scale = Vector2( 0.34507, 0.128614 )
+texture = SubResource( 4 )
+color = Color( 0.678431, 0.858824, 1, 1 )
+mode = 2
+range_item_cull_mask = 524288
+
+[node name="Usins" type="Button" parent="Buttons"]
+light_mask = 524288
+margin_left = -117.941
+margin_top = -148.239
+margin_right = 96.0586
+margin_bottom = -94.2393
+rect_rotation = 5.63365
+rect_pivot_offset = Vector2( -581.193, -58.232 )
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+text = "Uusinsh"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Light2D" type="Light2D" parent="Buttons/Usins"]
+position = Vector2( 105.636, 22.2083 )
+scale = Vector2( 0.423298, 0.128614 )
+texture = SubResource( 4 )
+color = Color( 0.678431, 0.858824, 1, 1 )
+mode = 2
+range_item_cull_mask = 524288
+
+[node name="Mara" type="Button" parent="Buttons"]
+light_mask = 524288
+margin_left = -268.044
+margin_top = 225.979
+margin_right = -54.0439
+margin_bottom = 279.979
+rect_rotation = -1.27876
+rect_pivot_offset = Vector2( -581.193, -58.232 )
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+text = "Maara"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Light2D" type="Light2D" parent="Buttons/Mara"]
+position = Vector2( 105.636, 22.2083 )
+scale = Vector2( 0.423298, 0.128614 )
+texture = SubResource( 4 )
+color = Color( 0.678431, 0.858824, 1, 1 )
+mode = 2
+range_item_cull_mask = 524288
+
+[node name="Jumis" type="Button" parent="Buttons"]
+light_mask = 524288
+margin_left = -336.966
+margin_top = 145.07
+margin_right = -122.966
+margin_bottom = 199.07
+rect_rotation = -8.38154
+rect_pivot_offset = Vector2( -581.193, -58.232 )
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+text = "Iumis"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Light2D" type="Light2D" parent="Buttons/Jumis"]
+position = Vector2( 105.636, 22.2083 )
+scale = Vector2( 0.423298, 0.128614 )
+texture = SubResource( 4 )
+color = Color( 0.678431, 0.858824, 1, 1 )
+mode = 2
+range_item_cull_mask = 524288
+
+[node name="Vells" type="Button" parent="Buttons"]
+light_mask = 524288
+margin_left = 119.777
+margin_top = 358.058
+margin_right = 333.777
+margin_bottom = 412.058
+rect_rotation = -16.5314
+rect_pivot_offset = Vector2( -581.193, -58.232 )
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+text = "Vells"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Light2D" type="Light2D" parent="Buttons/Vells"]
+position = Vector2( 105.636, 22.2083 )
+scale = Vector2( 0.423298, 0.128614 )
+texture = SubResource( 4 )
+color = Color( 0.678431, 0.858824, 1, 1 )
+mode = 2
+range_item_cull_mask = 524288
+
+[node name="Creators" type="Button" parent="Buttons"]
+light_mask = 524288
+margin_left = 297.639
+margin_top = 253.68
+margin_right = 552.639
+margin_bottom = 307.68
+rect_pivot_offset = Vector2( -581.193, -58.232 )
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+text = "Creators"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Return" type="Button" parent="Buttons"]
+margin_left = -655.322
+margin_top = 320.058
+margin_right = -393.322
+margin_bottom = 361.058
+custom_fonts/font = SubResource( 5 )
+custom_colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
+text = "< To The Tree"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InfoDump" type="Node2D" parent="."]
+
+[node name="Dievs_aprakstsjpg" type="Sprite" parent="InfoDump"]
+visible = false
+position = Vector2( 686.922, 384.443 )
+scale = Vector2( 0.47924, 0.47924 )
+texture = ExtResource( 4 )
+
+[node name="Laima_aprakstsjpg" type="Sprite" parent="InfoDump"]
+visible = false
+position = Vector2( 686.922, 384.443 )
+scale = Vector2( 0.47924, 0.47924 )
+texture = ExtResource( 10 )
+
+[node name="Jods_aprakstsjpg" type="Sprite" parent="InfoDump"]
+position = Vector2( 618.851, 358.283 )
+scale = Vector2( 0.74069, 0.74069 )
+texture = ExtResource( 9 )
+
+[node name="Creators" type="Sprite" parent="InfoDump"]
+visible = false
+position = Vector2( 686.922, 384.443 )
+scale = Vector2( 0.47924, 0.47924 )
+texture = ExtResource( 8 )
+
+[node name="Button" type="Button" parent="InfoDump"]
+margin_left = 56.5686
+margin_top = 709.935
+margin_right = 205.569
+margin_bottom = 750.935
+custom_fonts/font = SubResource( 5 )
+custom_colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
+text = "< Return"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Transition" type="Node2D" parent="."]
+visible = false
+position = Vector2( -6637.87, -3611.74 )
+scale = Vector2( 7, 7 )
+z_index = -4
+
+[node name="Background" type="Sprite" parent="Transition"]
+position = Vector2( 498.497, 270.26 )
+scale = Vector2( 0.859306, 1032.41 )
+texture = SubResource( 7 )
+
+[node name="Sprite" type="Light2D" parent="Transition/Background"]
+light_mask = 0
+position = Vector2( -0.287476, -0.00330025 )
+scale = Vector2( 4.00112, 0.00194023 )
+texture = SubResource( 9 )
+
+[node name="Oak" type="Sprite" parent="Transition/Background"]
+light_mask = 256
+position = Vector2( -20.6266, 0 )
+scale = Vector2( 0.608591, 0.000520833 )
+z_index = 2
+texture = ExtResource( 6 )
+
+[node name="rullis1" type="Sprite" parent="Transition/Background"]
+light_mask = 786432
+position = Vector2( 652.504, 0.286057 )
+scale = Vector2( 0.532066, 0.000450129 )
+z_index = 2
+texture = ExtResource( 7 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/ToTree = SubResource( 10 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 5 )
+volume_db = -10.018
+autoplay = true
+[connection signal="mouse_entered" from="Buttons/Dievs" to="." method="_on_Dievs_mouse_entered"]
+[connection signal="pressed" from="Buttons/Dievs" to="." method="_on_Dievs_pressed"]
+[connection signal="mouse_entered" from="Buttons/Laima" to="." method="_on_Laima_mouse_entered"]
+[connection signal="pressed" from="Buttons/Laima" to="." method="_on_Laima_pressed"]
+[connection signal="mouse_entered" from="Buttons/Jods" to="." method="_on_Jods_mouse_entered"]
+[connection signal="pressed" from="Buttons/Jods" to="." method="_on_Jods_pressed"]
+[connection signal="mouse_entered" from="Buttons/Usins" to="." method="_on_Usins_mouse_entered"]
+[connection signal="mouse_entered" from="Buttons/Mara" to="." method="_on_Mara_mouse_entered"]
+[connection signal="mouse_entered" from="Buttons/Jumis" to="." method="_on_Jumis_mouse_entered"]
+[connection signal="mouse_entered" from="Buttons/Vells" to="." method="_on_Vells_mouse_entered"]
+[connection signal="mouse_entered" from="Buttons/Creators" to="." method="_on_Creators_mouse_entered"]
+[connection signal="pressed" from="Buttons/Creators" to="." method="_on_Creators_pressed"]
+[connection signal="mouse_entered" from="Buttons/Return" to="." method="_on_Return_mouse_entered"]
+[connection signal="pressed" from="Buttons/Return" to="." method="_on_Return_pressed"]
+[connection signal="mouse_entered" from="InfoDump/Button" to="." method="_on_Button_mouse_entered"]
+[connection signal="pressed" from="InfoDump/Button" to="." method="_on_Button_pressed"]
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]

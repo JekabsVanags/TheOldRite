@@ -1,0 +1,1362 @@
+[gd_scene load_steps=300 format=2]
+
+[ext_resource path="res://Visuals_demo/Fonts/Greconian.otf" type="DynamicFontData" id=1]
+[ext_resource path="res://Prefabs/RotatingCircles.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Kinsmen/AudioKinsmen.gd" type="Script" id=3]
+[ext_resource path="res://Prefabs/Sign.gd" type="Script" id=4]
+[ext_resource path="res://Kinsmen/KinsmenCore.gd" type="Script" id=5]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0014.jpg" type="Texture" id=6]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0039.jpg" type="Texture" id=7]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0055.jpg" type="Texture" id=8]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0082.jpg" type="Texture" id=9]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0034.jpg" type="Texture" id=10]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0048.jpg" type="Texture" id=11]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0052.jpg" type="Texture" id=12]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0007.jpg" type="Texture" id=13]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0012.jpg" type="Texture" id=14]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0008.jpg" type="Texture" id=15]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0024.jpg" type="Texture" id=16]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0076.jpg" type="Texture" id=17]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0043.jpg" type="Texture" id=18]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0054.jpg" type="Texture" id=19]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0100.jpg" type="Texture" id=20]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0021.jpg" type="Texture" id=21]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0050.jpg" type="Texture" id=22]
+[ext_resource path="res://Kinsmen/spulis.png" type="Texture" id=23]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0015.jpg" type="Texture" id=24]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0085.jpg" type="Texture" id=25]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0036.jpg" type="Texture" id=26]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0035.jpg" type="Texture" id=27]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0026.jpg" type="Texture" id=28]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0056.jpg" type="Texture" id=29]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0030.jpg" type="Texture" id=30]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0069.jpg" type="Texture" id=31]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0019.jpg" type="Texture" id=32]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0025.jpg" type="Texture" id=33]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0018.jpg" type="Texture" id=34]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0053.jpg" type="Texture" id=35]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0064.jpg" type="Texture" id=36]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0071.jpg" type="Texture" id=37]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0079.jpg" type="Texture" id=38]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0049.jpg" type="Texture" id=39]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0011.jpg" type="Texture" id=40]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0073.jpg" type="Texture" id=41]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0067.jpg" type="Texture" id=42]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0022.jpg" type="Texture" id=43]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0061.jpg" type="Texture" id=44]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0040.jpg" type="Texture" id=45]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0027.jpg" type="Texture" id=46]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0003.jpg" type="Texture" id=47]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0017.jpg" type="Texture" id=48]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0009.jpg" type="Texture" id=49]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0001.jpg" type="Texture" id=50]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0002.jpg" type="Texture" id=51]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0004.jpg" type="Texture" id=52]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0086.jpg" type="Texture" id=53]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0013.jpg" type="Texture" id=54]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0005.jpg" type="Texture" id=55]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0010.jpg" type="Texture" id=56]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0023.jpg" type="Texture" id=57]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0016.jpg" type="Texture" id=58]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0051.jpg" type="Texture" id=59]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0020.jpg" type="Texture" id=60]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0006.jpg" type="Texture" id=61]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0032.jpg" type="Texture" id=62]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0045.jpg" type="Texture" id=63]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0107.jpg" type="Texture" id=64]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0116.jpg" type="Texture" id=65]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0072.jpg" type="Texture" id=66]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0113.jpg" type="Texture" id=67]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0047.jpg" type="Texture" id=68]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0075.jpg" type="Texture" id=69]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0033.jpg" type="Texture" id=70]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0065.jpg" type="Texture" id=71]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0031.jpg" type="Texture" id=72]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0042.jpg" type="Texture" id=73]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0041.jpg" type="Texture" id=74]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0062.jpg" type="Texture" id=75]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0083.jpg" type="Texture" id=76]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0029.jpg" type="Texture" id=77]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0084.jpg" type="Texture" id=78]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0058.jpg" type="Texture" id=79]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0097.jpg" type="Texture" id=80]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0109.jpg" type="Texture" id=81]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0060.jpg" type="Texture" id=82]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0028.jpg" type="Texture" id=83]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0088.jpg" type="Texture" id=84]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0099.jpg" type="Texture" id=85]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0138.jpg" type="Texture" id=86]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0124.jpg" type="Texture" id=87]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0108.jpg" type="Texture" id=88]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0156.jpg" type="Texture" id=89]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0123.jpg" type="Texture" id=90]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0078.jpg" type="Texture" id=91]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0074.jpg" type="Texture" id=92]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0066.jpg" type="Texture" id=93]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0098.jpg" type="Texture" id=94]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0106.jpg" type="Texture" id=95]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0120.jpg" type="Texture" id=96]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0154.jpg" type="Texture" id=97]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0037.jpg" type="Texture" id=98]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0092.jpg" type="Texture" id=99]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0155.jpg" type="Texture" id=100]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0148.jpg" type="Texture" id=101]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0070.jpg" type="Texture" id=102]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0143.jpg" type="Texture" id=103]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0139.jpg" type="Texture" id=104]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0057.jpg" type="Texture" id=105]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0059.jpg" type="Texture" id=106]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0095.jpg" type="Texture" id=107]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0096.jpg" type="Texture" id=108]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0081.jpg" type="Texture" id=109]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0080.jpg" type="Texture" id=110]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0090.jpg" type="Texture" id=111]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0044.jpg" type="Texture" id=112]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0038.jpg" type="Texture" id=113]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0046.jpg" type="Texture" id=114]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0077.jpg" type="Texture" id=115]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0093.jpg" type="Texture" id=116]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0094.jpg" type="Texture" id=117]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0125.jpg" type="Texture" id=118]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0136.jpg" type="Texture" id=119]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0063.jpg" type="Texture" id=120]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0153.jpg" type="Texture" id=121]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0087.jpg" type="Texture" id=122]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0089.jpg" type="Texture" id=123]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0091.jpg" type="Texture" id=124]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0068.jpg" type="Texture" id=125]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0160.jpg" type="Texture" id=126]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0140.jpg" type="Texture" id=127]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0105.jpg" type="Texture" id=128]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0144.jpg" type="Texture" id=129]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0159.jpg" type="Texture" id=130]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0162.jpg" type="Texture" id=131]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0158.jpg" type="Texture" id=132]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0163.jpg" type="Texture" id=133]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0161.jpg" type="Texture" id=134]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0104.jpg" type="Texture" id=135]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0111.jpg" type="Texture" id=136]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0164.jpg" type="Texture" id=137]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0149.jpg" type="Texture" id=138]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0249.jpg" type="Texture" id=139]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0265.jpg" type="Texture" id=140]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0262.jpg" type="Texture" id=141]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0263.jpg" type="Texture" id=142]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0199.jpg" type="Texture" id=143]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0259.jpg" type="Texture" id=144]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0266.jpg" type="Texture" id=145]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0251.jpg" type="Texture" id=146]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0169.jpg" type="Texture" id=147]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0167.jpg" type="Texture" id=148]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0236.jpg" type="Texture" id=149]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0184.jpg" type="Texture" id=150]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0171.jpg" type="Texture" id=151]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0254.jpg" type="Texture" id=152]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0211.jpg" type="Texture" id=153]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0242.jpg" type="Texture" id=154]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0258.jpg" type="Texture" id=155]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0206.jpg" type="Texture" id=156]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0232.jpg" type="Texture" id=157]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0229.jpg" type="Texture" id=158]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0248.jpg" type="Texture" id=159]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0214.jpg" type="Texture" id=160]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0177.jpg" type="Texture" id=161]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0238.jpg" type="Texture" id=162]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0198.jpg" type="Texture" id=163]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0246.jpg" type="Texture" id=164]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0253.jpg" type="Texture" id=165]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0243.jpg" type="Texture" id=166]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0270.jpg" type="Texture" id=167]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0260.jpg" type="Texture" id=168]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0192.jpg" type="Texture" id=169]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0187.jpg" type="Texture" id=170]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0175.jpg" type="Texture" id=171]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0261.jpg" type="Texture" id=172]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0245.jpg" type="Texture" id=173]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0252.jpg" type="Texture" id=174]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0202.jpg" type="Texture" id=175]
+[ext_resource path="res://Visuals_demo/placeholders/light.png" type="Texture" id=176]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0231.jpg" type="Texture" id=177]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0239.jpg" type="Texture" id=178]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0269.jpg" type="Texture" id=179]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0256.jpg" type="Texture" id=180]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0240.jpg" type="Texture" id=181]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0241.jpg" type="Texture" id=182]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0194.jpg" type="Texture" id=183]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0235.jpg" type="Texture" id=184]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0201.jpg" type="Texture" id=185]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0237.jpg" type="Texture" id=186]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0247.jpg" type="Texture" id=187]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0268.jpg" type="Texture" id=188]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0250.jpg" type="Texture" id=189]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0257.jpg" type="Texture" id=190]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0267.jpg" type="Texture" id=191]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0233.jpg" type="Texture" id=192]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0204.jpg" type="Texture" id=193]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0255.jpg" type="Texture" id=194]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0195.jpg" type="Texture" id=195]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0244.jpg" type="Texture" id=196]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0230.jpg" type="Texture" id=197]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0264.jpg" type="Texture" id=198]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0193.jpg" type="Texture" id=199]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0234.jpg" type="Texture" id=200]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0146.jpg" type="Texture" id=201]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0134.jpg" type="Texture" id=202]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0213.jpg" type="Texture" id=203]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0228.jpg" type="Texture" id=204]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0141.jpg" type="Texture" id=205]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0118.jpg" type="Texture" id=206]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0121.jpg" type="Texture" id=207]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0186.jpg" type="Texture" id=208]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0217.jpg" type="Texture" id=209]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0131.jpg" type="Texture" id=210]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0207.jpg" type="Texture" id=211]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0208.jpg" type="Texture" id=212]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0218.jpg" type="Texture" id=213]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0210.jpg" type="Texture" id=214]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0137.jpg" type="Texture" id=215]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0122.jpg" type="Texture" id=216]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0103.jpg" type="Texture" id=217]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0152.jpg" type="Texture" id=218]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0215.jpg" type="Texture" id=219]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0200.jpg" type="Texture" id=220]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0130.jpg" type="Texture" id=221]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0119.jpg" type="Texture" id=222]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0174.jpg" type="Texture" id=223]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0227.jpg" type="Texture" id=224]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0150.jpg" type="Texture" id=225]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0181.jpg" type="Texture" id=226]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0115.jpg" type="Texture" id=227]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0224.jpg" type="Texture" id=228]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0170.jpg" type="Texture" id=229]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0196.jpg" type="Texture" id=230]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0127.jpg" type="Texture" id=231]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0117.jpg" type="Texture" id=232]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0129.jpg" type="Texture" id=233]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0114.jpg" type="Texture" id=234]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0126.jpg" type="Texture" id=235]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0178.jpg" type="Texture" id=236]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0203.jpg" type="Texture" id=237]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0102.jpg" type="Texture" id=238]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0135.jpg" type="Texture" id=239]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0179.jpg" type="Texture" id=240]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0221.jpg" type="Texture" id=241]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0225.jpg" type="Texture" id=242]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0128.jpg" type="Texture" id=243]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0226.jpg" type="Texture" id=244]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0197.jpg" type="Texture" id=245]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0133.jpg" type="Texture" id=246]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0142.jpg" type="Texture" id=247]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0183.jpg" type="Texture" id=248]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0157.jpg" type="Texture" id=249]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0188.jpg" type="Texture" id=250]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0219.jpg" type="Texture" id=251]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0145.jpg" type="Texture" id=252]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0147.jpg" type="Texture" id=253]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0112.jpg" type="Texture" id=254]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0220.jpg" type="Texture" id=255]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0189.jpg" type="Texture" id=256]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0101.jpg" type="Texture" id=257]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0110.jpg" type="Texture" id=258]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0166.jpg" type="Texture" id=259]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0151.jpg" type="Texture" id=260]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0223.jpg" type="Texture" id=261]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0180.jpg" type="Texture" id=262]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0212.jpg" type="Texture" id=263]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0132.jpg" type="Texture" id=264]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0216.jpg" type="Texture" id=265]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0176.jpg" type="Texture" id=266]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0205.jpg" type="Texture" id=267]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0190.jpg" type="Texture" id=268]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0185.jpg" type="Texture" id=269]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0182.jpg" type="Texture" id=270]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0209.jpg" type="Texture" id=271]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0191.jpg" type="Texture" id=272]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0165.jpg" type="Texture" id=273]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0173.jpg" type="Texture" id=274]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0172.jpg" type="Texture" id=275]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0168.jpg" type="Texture" id=276]
+[ext_resource path="res://Newborn/Animation/pt1/pt1.jpg0222.jpg" type="Texture" id=277]
+[ext_resource path="res://Kinsmen/Signs/akafull.png" type="Texture" id=278]
+
+[sub_resource type="DynamicFont" id=1]
+size = 30
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="Animation" id=2]
+resource_name = "LoadedScene"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("../../TheGuide:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "To_Menu"
+tracks/0/type = "value"
+tracks/0/path = NodePath("../../TheGuide:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("../../Text:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:self_modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("../../RotatingCircles:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.45, 0.45 ), Vector2( 0.7, 0.7 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("../../RotatingCircles:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 384.31, 386.019 ), Vector2( 71, 707 ) ]
+}
+
+[sub_resource type="Gradient" id=4]
+colors = PoolColorArray( 0, 0.0901961, 0.152941, 1, 0, 0.0901961, 0.152941, 1 )
+
+[sub_resource type="GradientTexture" id=5]
+gradient = SubResource( 4 )
+
+[sub_resource type="OpenSimplexNoise" id=6]
+period = 14.5
+persistence = 0.596
+lacunarity = 0.1
+
+[sub_resource type="NoiseTexture" id=7]
+seamless = true
+noise = SubResource( 6 )
+
+[sub_resource type="Animation" id=8]
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1055.56, -960 ), Vector2( 1055.56, -899 ), Vector2( 1055.56, -960 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0 ]
+}
+
+[sub_resource type="Animation" id=9]
+length = 2.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1220.17, -898.158 ), Vector2( 1220.17, -886.94 ), Vector2( 1220.17, -886.94 ), Vector2( 1220.17, -898.158 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0, 0.0 ]
+}
+
+[sub_resource type="Animation" id=10]
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1220.17, -898.158 ), Vector2( 1220.17, -886.94 ), Vector2( 1220.17, -898.158 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -10.0, 10.0, 0.0, 0.0, -10.0, 10.0, 0.0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:self_modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.4, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 0, 0, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="DynamicFont" id=11]
+size = 25
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="Animation" id=12]
+resource_name = "Clear"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Verse4:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Verse3:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Verse2:self_modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Verse1:self_modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Verse1:rect_position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 818.416, 306.649 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Verse1:rect_rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Verse2:rect_position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 818.416, 391.149 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Verse2:rect_rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Verse3:rect_position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 780.687, 443.649 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Verse3:rect_rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Verse4:rect_position")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 743.917, 493.359 ) ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("Verse4:rect_rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("Verse6:rect_position")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 694.099, 597.203 ) ]
+}
+tracks/13/type = "value"
+tracks/13/path = NodePath("Verse6:rect_rotation")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/14/type = "value"
+tracks/14/path = NodePath("Verse6:self_modulate")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/15/type = "value"
+tracks/15/path = NodePath("Verse5:rect_position")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 743.917, 527.676 ) ]
+}
+tracks/16/type = "value"
+tracks/16/path = NodePath("Verse5:rect_rotation")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/17/type = "value"
+tracks/17/path = NodePath("Verse5:self_modulate")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=13]
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Verse1:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Verse2:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Verse3:self_modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Verse4:self_modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Verse1:rect_position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 848.382, 386.019 ), Vector2( 1030.08, 28 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Verse1:rect_rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Verse2:rect_position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 818.416, 463.943 ), Vector2( 1030.08, 143.594 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Verse2:rect_rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Verse3:rect_position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 780.687, 543.495 ), Vector2( 1030.08, 258.397 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Verse3:rect_rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Verse4:rect_position")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 743.917, 602.943 ), Vector2( 1030.08, 386.019 ) ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("Verse4:rect_rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("Verse6:rect_position")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 694.099, 651.175 ), Vector2( 1030.08, 651.175 ) ]
+}
+tracks/13/type = "value"
+tracks/13/path = NodePath("Verse6:rect_rotation")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/14/type = "value"
+tracks/14/path = NodePath("Verse5:rect_position")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 776.539, 510.648 ), Vector2( 1030.08, 510.648 ) ]
+}
+tracks/15/type = "value"
+tracks/15/path = NodePath("Verse5:rect_rotation")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/16/type = "value"
+tracks/16/path = NodePath("../TheGuide:self_modulate")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/17/type = "value"
+tracks/17/path = NodePath("Verse6:self_modulate")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/18/type = "value"
+tracks/18/path = NodePath("Verse5:self_modulate")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=14]
+resource_name = "FLASH"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Verse6:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("../Light2D:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5, 1.5, 2 ),
+"transitions": PoolRealArray( 3.03143, 2.54912, 2.54912, 1 ),
+"update": 0,
+"values": [ Vector2( 0.01, 0.01 ), Vector2( 4, 4 ), Vector2( 4, 4 ), Vector2( 0.01, 0.01 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Animations:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("../Light2D:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=15]
+tracks/0/type = "value"
+tracks/0/path = NodePath("Verse1:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=16]
+tracks/0/type = "value"
+tracks/0/path = NodePath("Verse2:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Verse1:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=17]
+tracks/0/type = "value"
+tracks/0/path = NodePath("Verse2:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Verse3:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=18]
+tracks/0/type = "value"
+tracks/0/path = NodePath("Verse3:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Verse4:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=19]
+tracks/0/type = "value"
+tracks/0/path = NodePath("Verse4:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Verse5:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=20]
+tracks/0/type = "value"
+tracks/0/path = NodePath("Verse5:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Verse6:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="SpriteFrames" id=21]
+animations = [ {
+"frames": [ ExtResource( 50 ), ExtResource( 51 ), ExtResource( 47 ), ExtResource( 52 ), ExtResource( 55 ), ExtResource( 61 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 49 ), ExtResource( 56 ), ExtResource( 40 ), ExtResource( 14 ), ExtResource( 54 ), ExtResource( 6 ), ExtResource( 24 ), ExtResource( 58 ), ExtResource( 48 ), ExtResource( 34 ), ExtResource( 32 ), ExtResource( 60 ), ExtResource( 21 ), ExtResource( 43 ), ExtResource( 57 ), ExtResource( 16 ), ExtResource( 33 ), ExtResource( 28 ), ExtResource( 46 ), ExtResource( 83 ), ExtResource( 77 ), ExtResource( 30 ), ExtResource( 72 ), ExtResource( 62 ), ExtResource( 70 ), ExtResource( 10 ), ExtResource( 27 ), ExtResource( 26 ), ExtResource( 98 ), ExtResource( 113 ), ExtResource( 7 ), ExtResource( 45 ), ExtResource( 74 ), ExtResource( 73 ), ExtResource( 18 ), ExtResource( 112 ), ExtResource( 63 ), ExtResource( 114 ), ExtResource( 68 ), ExtResource( 11 ), ExtResource( 39 ), ExtResource( 22 ), ExtResource( 59 ), ExtResource( 12 ), ExtResource( 35 ), ExtResource( 19 ), ExtResource( 8 ), ExtResource( 29 ), ExtResource( 105 ), ExtResource( 79 ), ExtResource( 106 ), ExtResource( 82 ), ExtResource( 44 ), ExtResource( 75 ), ExtResource( 120 ), ExtResource( 36 ), ExtResource( 71 ), ExtResource( 93 ), ExtResource( 42 ), ExtResource( 125 ), ExtResource( 31 ), ExtResource( 102 ), ExtResource( 37 ), ExtResource( 66 ), ExtResource( 41 ), ExtResource( 92 ), ExtResource( 69 ), ExtResource( 17 ), ExtResource( 115 ), ExtResource( 91 ), ExtResource( 38 ), ExtResource( 110 ), ExtResource( 109 ), ExtResource( 9 ), ExtResource( 76 ), ExtResource( 78 ), ExtResource( 25 ), ExtResource( 53 ), ExtResource( 122 ), ExtResource( 84 ), ExtResource( 123 ), ExtResource( 111 ), ExtResource( 124 ), ExtResource( 99 ), ExtResource( 116 ), ExtResource( 117 ), ExtResource( 107 ), ExtResource( 108 ), ExtResource( 80 ), ExtResource( 94 ), ExtResource( 85 ), ExtResource( 20 ), ExtResource( 257 ), ExtResource( 238 ), ExtResource( 217 ), ExtResource( 135 ), ExtResource( 128 ), ExtResource( 95 ), ExtResource( 64 ), ExtResource( 88 ), ExtResource( 81 ), ExtResource( 258 ), ExtResource( 136 ), ExtResource( 254 ), ExtResource( 67 ), ExtResource( 234 ), ExtResource( 227 ), ExtResource( 65 ), ExtResource( 232 ), ExtResource( 206 ), ExtResource( 222 ), ExtResource( 96 ), ExtResource( 207 ), ExtResource( 216 ), ExtResource( 90 ), ExtResource( 87 ), ExtResource( 118 ), ExtResource( 235 ), ExtResource( 231 ), ExtResource( 243 ), ExtResource( 233 ), ExtResource( 221 ), ExtResource( 210 ), ExtResource( 264 ), ExtResource( 246 ), ExtResource( 202 ), ExtResource( 239 ), ExtResource( 119 ), ExtResource( 215 ), ExtResource( 86 ), ExtResource( 104 ), ExtResource( 127 ), ExtResource( 205 ), ExtResource( 247 ), ExtResource( 103 ), ExtResource( 129 ), ExtResource( 252 ), ExtResource( 201 ), ExtResource( 253 ), ExtResource( 101 ), ExtResource( 138 ), ExtResource( 225 ), ExtResource( 260 ), ExtResource( 218 ), ExtResource( 121 ), ExtResource( 97 ), ExtResource( 100 ), ExtResource( 89 ), ExtResource( 249 ), ExtResource( 132 ), ExtResource( 130 ), ExtResource( 126 ), ExtResource( 134 ), ExtResource( 131 ), ExtResource( 133 ), ExtResource( 137 ), ExtResource( 273 ), ExtResource( 259 ), ExtResource( 148 ), ExtResource( 276 ), ExtResource( 147 ), ExtResource( 229 ), ExtResource( 151 ), ExtResource( 275 ), ExtResource( 274 ), ExtResource( 223 ), ExtResource( 171 ), ExtResource( 266 ), ExtResource( 161 ), ExtResource( 236 ), ExtResource( 240 ), ExtResource( 262 ), ExtResource( 226 ), ExtResource( 270 ), ExtResource( 248 ), ExtResource( 150 ), ExtResource( 269 ), ExtResource( 208 ), ExtResource( 170 ), ExtResource( 250 ), ExtResource( 256 ), ExtResource( 268 ), ExtResource( 272 ), ExtResource( 169 ), ExtResource( 199 ), ExtResource( 183 ), ExtResource( 195 ), ExtResource( 230 ), ExtResource( 245 ), ExtResource( 163 ), ExtResource( 143 ), ExtResource( 220 ), ExtResource( 185 ), ExtResource( 175 ), ExtResource( 237 ), ExtResource( 193 ), ExtResource( 267 ), ExtResource( 156 ), ExtResource( 211 ), ExtResource( 212 ), ExtResource( 271 ), ExtResource( 214 ), ExtResource( 153 ), ExtResource( 263 ), ExtResource( 203 ), ExtResource( 160 ), ExtResource( 219 ), ExtResource( 265 ), ExtResource( 209 ), ExtResource( 213 ), ExtResource( 251 ), ExtResource( 255 ), ExtResource( 241 ), ExtResource( 277 ), ExtResource( 261 ), ExtResource( 228 ), ExtResource( 242 ), ExtResource( 244 ), ExtResource( 224 ), ExtResource( 204 ), ExtResource( 158 ), ExtResource( 197 ), ExtResource( 177 ), ExtResource( 157 ), ExtResource( 192 ), ExtResource( 200 ), ExtResource( 184 ), ExtResource( 149 ), ExtResource( 186 ), ExtResource( 162 ), ExtResource( 178 ), ExtResource( 181 ), ExtResource( 182 ), ExtResource( 154 ), ExtResource( 166 ), ExtResource( 196 ), ExtResource( 173 ), ExtResource( 164 ), ExtResource( 187 ), ExtResource( 159 ), ExtResource( 139 ), ExtResource( 189 ), ExtResource( 146 ), ExtResource( 174 ), ExtResource( 165 ), ExtResource( 152 ), ExtResource( 194 ), ExtResource( 180 ), ExtResource( 190 ), ExtResource( 155 ), ExtResource( 144 ), ExtResource( 168 ), ExtResource( 172 ), ExtResource( 141 ), ExtResource( 142 ), ExtResource( 198 ), ExtResource( 140 ), ExtResource( 145 ), ExtResource( 191 ), ExtResource( 188 ), ExtResource( 179 ), ExtResource( 167 ) ],
+"loop": false,
+"name": "default",
+"speed": 16.0
+}, {
+"frames": [ ExtResource( 168 ), ExtResource( 172 ), ExtResource( 141 ), ExtResource( 142 ), ExtResource( 198 ), ExtResource( 140 ), ExtResource( 145 ), ExtResource( 191 ), ExtResource( 188 ), ExtResource( 179 ), ExtResource( 167 ), ExtResource( 179 ), ExtResource( 188 ), ExtResource( 191 ), ExtResource( 145 ), ExtResource( 140 ), ExtResource( 198 ), ExtResource( 142 ), ExtResource( 141 ), ExtResource( 172 ) ],
+"loop": true,
+"name": "Baby",
+"speed": 15.0
+} ]
+
+[node name="Newborn" type="Node2D"]
+
+[node name="VersePlayer" type="AudioStreamPlayer" parent="."]
+script = ExtResource( 3 )
+
+[node name="Button" type="Button" parent="VersePlayer"]
+margin_left = 8.08636
+margin_top = 714.047
+margin_right = 298.086
+margin_bottom = 750.047
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 0.592157, 0.807843, 0.945098, 1 )
+text = "BACK TO THE TREE"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="VersePlayer/Button"]
+autoplay = "LoadedScene"
+anims/LoadedScene = SubResource( 2 )
+anims/To_Menu = SubResource( 3 )
+
+[node name="Background" type="Sprite" parent="."]
+light_mask = -2147483135
+position = Vector2( 684.384, 382.597 )
+scale = Vector2( 0.668344, 786.375 )
+z_index = -4
+texture = SubResource( 5 )
+
+[node name="Light2D" type="Light2D" parent="Background"]
+light_mask = 0
+position = Vector2( 5.53131e-05, 1.35042e-08 )
+scale = Vector2( 4, 0.00195313 )
+texture = SubResource( 7 )
+range_item_cull_mask = 512
+
+[node name="RotatingCircles" parent="." instance=ExtResource( 2 )]
+
+[node name="TheGuide" type="Sprite" parent="."]
+light_mask = 513
+position = Vector2( 799.595, 378.158 )
+scale = Vector2( 0.332057, 0.31208 )
+z_index = -1
+texture = ExtResource( 23 )
+
+[node name="Sprite" type="Sprite" parent="TheGuide"]
+light_mask = 524288
+position = Vector2( 1055.56, -960 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 278 )
+script = ExtResource( 4 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="TheGuide/Sprite"]
+anims/grow = SubResource( 8 )
+anims/idle = SubResource( 9 )
+anims/shrink = SubResource( 10 )
+
+[node name="Text" type="Node2D" parent="."]
+script = ExtResource( 5 )
+
+[node name="Verse1" type="RichTextLabel" parent="Text"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 818.416
+margin_top = 306.649
+margin_right = 1274.41
+margin_bottom = 443.649
+custom_fonts/normal_font = SubResource( 11 )
+text = "Not at all big
+Was the thing
+Why the kinsmen
+Came riding here"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Verse2" type="RichTextLabel" parent="Text"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 818.416
+margin_top = 391.149
+margin_right = 1274.41
+margin_bottom = 527.676
+custom_fonts/normal_font = SubResource( 11 )
+text = "Small so small
+Came a new soul
+Down from the sky,
+Wrapped in cloth white"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Verse3" type="RichTextLabel" parent="Text"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 780.687
+margin_top = 443.649
+margin_right = 1236.7
+margin_bottom = 581.177
+custom_fonts/normal_font = SubResource( 11 )
+text = "Not at all big
+Was the thing
+Why the kinsmen
+Came riding here"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Verse4" type="RichTextLabel" parent="Text"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 743.917
+margin_top = 493.359
+margin_right = 1199.92
+margin_bottom = 633.887
+custom_fonts/normal_font = SubResource( 11 )
+text = "Not at all big
+Was the thing
+Why the kinsmen
+Came riding here"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Verse5" type="RichTextLabel" parent="Text"]
+self_modulate = Color( 1, 1, 1, 0.1 )
+margin_left = 743.917
+margin_top = 527.676
+margin_right = 1199.92
+margin_bottom = 668.203
+custom_fonts/normal_font = SubResource( 11 )
+text = "Not at all big
+Was the thing
+Why the kinsmen
+Came riding here"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Verse6" type="RichTextLabel" parent="Text"]
+self_modulate = Color( 1, 1, 1, 0.9 )
+margin_left = 694.099
+margin_top = 597.203
+margin_right = 1150.1
+margin_bottom = 737.731
+custom_fonts/normal_font = SubResource( 11 )
+text = "Not at all big
+Was the thing
+Why the kinsmen
+Came riding here"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Verse7" type="RichTextLabel" parent="Text"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 694.099
+margin_top = 597.203
+margin_right = 1150.1
+margin_bottom = 737.731
+custom_fonts/normal_font = SubResource( 11 )
+text = "Not at all big
+Was the thing
+Why the kinsmen
+Came riding here"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Verse8" type="RichTextLabel" parent="Text"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 694.099
+margin_top = 597.203
+margin_right = 1150.1
+margin_bottom = 737.731
+custom_fonts/normal_font = SubResource( 11 )
+text = "Not at all big
+Was the thing
+Why the kinsmen
+Came riding here"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Text"]
+autoplay = "Clear"
+anims/Clear = SubResource( 12 )
+anims/End = SubResource( 13 )
+anims/FLASH = SubResource( 14 )
+"anims/Verse 1" = SubResource( 15 )
+anims/Verse2 = SubResource( 16 )
+anims/Verse3 = SubResource( 17 )
+anims/Verse4 = SubResource( 18 )
+anims/Verse5 = SubResource( 19 )
+anims/Verse6 = SubResource( 20 )
+
+[node name="Animations" type="Node2D" parent="Text"]
+visible = false
+position = Vector2( 686.404, 388.236 )
+scale = Vector2( 0.718956, 0.718956 )
+
+[node name="EndAnimation" type="AnimatedSprite" parent="Text/Animations"]
+frames = SubResource( 21 )
+
+[node name="Light2D" type="Sprite" parent="."]
+visible = false
+modulate = Color( 0, 0.0901961, 0.152941, 1 )
+position = Vector2( 384.31, 381.928 )
+scale = Vector2( 0.01, 0.01 )
+texture = ExtResource( 176 )
+[connection signal="finished" from="VersePlayer" to="VersePlayer" method="_on_VersePlayer_finished"]
+[connection signal="mouse_entered" from="VersePlayer/Button" to="VersePlayer" method="_on_Button_mouse_entered"]
+[connection signal="pressed" from="VersePlayer/Button" to="VersePlayer" method="_on_Button_pressed"]
+[connection signal="animation_finished" from="VersePlayer/Button/AnimationPlayer" to="VersePlayer" method="_on_AnimationPlayer_animation_finished"]
+[connection signal="animation_finished" from="TheGuide/Sprite/AnimationPlayer" to="TheGuide/Sprite" method="_on_AnimationPlayer_animation_finished"]
+[connection signal="animation_finished" from="Text/AnimationPlayer" to="Text" method="_on_AnimationPlayer_animation_finished"]
+[connection signal="animation_finished" from="Text/Animations/EndAnimation" to="Text" method="_on_EndAnimation_animation_finished"]

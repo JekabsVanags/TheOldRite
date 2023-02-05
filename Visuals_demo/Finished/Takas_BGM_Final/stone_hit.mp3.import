@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/stone_hit.mp3-09bc8c50826daeaa56ba65a48c0596f0.mp3str"
+
+[deps]
+
+source_file="res://Visuals_demo/Finished/Takas_BGM_Final/stone_hit.mp3"
+dest_files=[ "res://.import/stone_hit.mp3-09bc8c50826daeaa56ba65a48c0596f0.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
